@@ -1,0 +1,3 @@
+services:
+    \PoP\Cache\Contracts\CacheAPI:
+        class: \Symfony\Component\Cache\Adapter\FilesystemAdapter
