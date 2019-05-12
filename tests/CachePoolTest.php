@@ -2,17 +2,17 @@
 declare(strict_types=1);
 namespace PoP\SymfonyCache;
 
-use PoP\Cache\Facades\CacheAPI;
+use PoP\Cache\Facades\CachePool;
 
-class CacheAPITestCase extends \PHPUnit\Framework\TestCase
+class CachePoolTestCase extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test that applyFilter returns $value
      */
     public function testCache(): void
     {
-        $cacheapi = CacheAPI::getInstance();
-        $cacheitem = $cacheapi->getItem('foo');
+        $cachepool = CachePool::getInstance();
+        $cacheitem = $cachepool->getItem('foo');
         $cacheitem->set('bar');
         $this->assertEquals(
             'bar',
