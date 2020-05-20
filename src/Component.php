@@ -20,7 +20,7 @@ class Component
     /**
      * Initialize services
      */
-    public static function init()
+    protected static function doInitialize()
     {
         self::$active = true;
 
