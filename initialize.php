@@ -1,2 +1,2 @@
 <?php
-\PoP\SymfonyCache\Component::init();
+//\PoP\SymfonyCache\Component::initialize();
