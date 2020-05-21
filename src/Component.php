@@ -16,11 +16,11 @@ class Component
      * @var boolean
      */
     public static $active;
-    
+
     /**
      * Initialize services
      */
-    protected static function doInitialize()
+    protected static function doInitialize(): void
     {
         self::$active = true;
 
