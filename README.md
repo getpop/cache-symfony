@@ -19,6 +19,14 @@ Via Composer
 $ composer require getpop/cache-symfony
 ```
 
+## Usage
+
+Initialize the component:
+
+``` php
+\PoP\SymfonyCache\Component::initialize();
+```
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
