@@ -24,7 +24,9 @@ $ composer require getpop/cache-symfony
 Initialize the component:
 
 ``` php
-\PoP\SymfonyCache\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\SymfonyCache\Component::class,
+]);
 ```
 
 ## Change log
