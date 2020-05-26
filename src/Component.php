@@ -20,7 +20,7 @@ class Component
     /**
      * Initialize services
      */
-    protected static function doInitialize(): void
+    protected static function doInitialize(bool $skipSchema = false): void
     {
         self::$active = true;
 
