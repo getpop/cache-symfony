@@ -20,7 +20,7 @@ class Component
     /**
      * Initialize services
      */
-    protected static function doInitialize(bool $skipSchema = false): void
+    protected static function doInitialize(array $configuration = [], bool $skipSchema = false): void
     {
         self::$active = true;
 
