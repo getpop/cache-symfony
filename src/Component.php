@@ -20,8 +20,11 @@ class Component
     /**
      * Initialize services
      */
-    protected static function doInitialize(array $configuration = [], bool $skipSchema = false): void
-    {
+    protected static function doInitialize(
+        array $configuration = [],
+        bool $skipSchema = false,
+        array $skipSchemaComponentClasses = []
+    ): void {
         self::$active = true;
 
         // Initialize the ContainerBuilder with this component's service implementations
