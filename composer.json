@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "~7.1",
+        "php": "~7.2",
         "getpop/cache": "dev-master",
         "getpop/root": "^1.0@dev",
         "symfony/cache": "^4.2"
