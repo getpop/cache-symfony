@@ -19,6 +19,9 @@ class Component
 
     /**
      * Initialize services
+     *
+     * @param mixed[] $configuration
+     * @param string[] $skipSchemaComponentClasses
      */
     protected static function doInitialize(
         array $configuration = [],
